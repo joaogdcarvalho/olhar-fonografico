@@ -1,0 +1,735 @@
+body {
+	margin:0;
+	background-image:url(imagens/wallpaper.png);
+	background-repeat:repeat;
+	}
+
+#cabecalho {
+	height:100px;
+	width:1366px;
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+	
+#mural	{
+	border-style:solid;
+	border-width:2px;
+	border-color:#6ac3ff;
+	width:1000px;
+	height:1000px;
+	position:absolute;
+	top:150px;
+	left:180px;
+	}
+
+#album100 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album99 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album98 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album97 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album96 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album95 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album94 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album93 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album92 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album91 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album90 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album89 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album88 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album87 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album86 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album85 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album84 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album83 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album82 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album81 {
+
+	position:relative;	
+	float:left; 
+	margin:0px;
+	}
+
+#album80 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album79 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album78 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album77 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album76 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album75 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album74 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album73 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album72 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album71 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album70 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album69 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album68 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album67 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album66 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album65 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album64 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album63 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album62 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album61 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album60 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album59 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album58 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album57 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album56 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album55 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album54 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album53 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album52 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album51 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album50 {
+
+	position:relative;	
+	float:left;margin:0px;
+	}
+
+#album49 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album48 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album47 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album46 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album45 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album44 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album43 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album42 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album41 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album40 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album39 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album38 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album37 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album36 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album35 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album34 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album33 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album32 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album31 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album30 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album29 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album28 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album27 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album26 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album25 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album24 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album23 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album22 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album21 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album20 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album19 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album18 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album17 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album16 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album15 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album14 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album13 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album12 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album11 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album10 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album9 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album8 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album7 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album6 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album5 {
+
+	position:relative;
+	float:left;
+	margin:0px;
+	}
+
+#album4 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album3 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album2 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+
+#album1 {
+
+	position:relative;	
+	float:left;
+	margin:0px;
+	}
+	
+#xpg-index {
+	background-color: transparent;
+	height: 200px;
+	width: 100%;
+	position: absolute;
+	top: 1157px;
+	left: 0px;
+	}
+
+
+	
