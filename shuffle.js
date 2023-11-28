@@ -1,6 +1,11 @@
-    var enderecos = new Array("vitrine1.html","vitrine2.html","vitrine3.html","vitrine4.html","vitrine5.html","vitrine6.html","vitrine7.html","vitrine8.html","vitrine9.html","vitrine10.html","vitrine11.html","vitrine12.html","vitrine13.html","vitrine14.html","vitrine15.html","vitrine16.html","vitrine17.html","vitrine18.html","vitrine19.html","vitrine20.html","vitrine21.html","vitrine22.html","vitrine23.html","vitrine24.html","vitrine25.html","vitrine26.html","vitrine27.html","vitrine28.html","vitrine29.html","vitrine30.html","vitrine31.html","vitrine32.html","vitrine33.html","vitrine34.html","vitrine35.html","vitrine36.html","vitrine37.html","vitrine38.html","vitrine39.html","vitrine40.html","vitrine41.html","vitrine42.html","vitrine43.html","vitrine44.html","vitrine45.html","vitrine46.html","vitrine47.html","vitrine48.html","vitrine49.html","vitrine50.html","vitrine51.html","vitrine52.html","vitrine53.html","vitrine54.html","vitrine55.html","vitrine56.html","vitrine57.html","vitrine58.html","vitrine59.html","vitrine60.html","vitrine61.html","vitrine62.html","vitrine63.html","vitrine64.html","vitrine65.html","vitrine66.html","vitrine67.html","vitrine68.html","vitrine69.html","vitrine70.html","vitrine71.html","vitrine72.html","vitrine73.html","vitrine74.html","vitrine75.html","vitrine76.html","vitrine77.html","vitrine78.html","vitrine79.html","vitrine80.html","vitrine81.html","vitrine82.html","vitrine83.html","vitrine84.html","vitrine85.html","vitrine86.html","vitrine87.html","vitrine88.html","vitrine89.html","vitrine90.html","vitrine91.html","vitrine92.html","vitrine93.html","vitrine94.html","vitrine95.html","vitrine96.html","vitrine97.html","vitrine98.html","vitrine99.html","vitrine100.html")
-    function linkAleatorio(){
-       aleat = Math.random() * enderecos.length
-       aleat = Math.floor(aleat)
-       window.location=enderecos[aleat]
-    }
+// Cria um array de URLs para vitrines de forma dinâmica
+const vitrineURLs = Array.from({ length: 100 }, (_, i) => `vitrine${i + 1}.html`);
+
+// Função para redirecionar para um URL aleatório
+function redirecionarParaURLAleatorio() {
+   // Gera um número aleatório dentro dos limites do array de URLs
+   const indiceAleatorio = Math.floor(Math.random() * vitrineURLs.length);
+   
+   // Redireciona para o URL correspondente ao índice aleatório gerado
+   window.location = vitrineURLs[indiceAleatorio];
+}
