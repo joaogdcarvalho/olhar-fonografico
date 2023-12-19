@@ -1,307 +1,212 @@
-body
-	{
-	margin:0;
-	background-image:url(imagens/wallpaper.png);
-	background-repeat:repeat;
-	}
-	
-#cabecalho
-	{
-	height:70px;
-	width:1366px;
-	position:absolute;
-	top:0px;
-	left:0px;
-	background-color:transparent;
-	}
-	
-
-
-#painelprincipal
-	{
-	width:540px;
-	height:540px;
-	background-image:url(imagens/vitrine.png);
-	position:relative;
-	top:75px;
-	left:750px;
-	float:left;
-	}
-
-#capa
-	{
-	width:500px;
-	height:500px;
-	background-color:#000;
-	position:relative;
-	top:20px;
-	left:20px;
-	}
-
-#ranking
-	{
-	width:100px;
-	height:100px;
-	background-image:url(imagens/ranking/100.png);
-	position:absolute;
-	top:75px;
-	left:345px;
-	}
-
-#redes_sociais
-	{
-		width:30px;
-		height:100px;
-		position:absolute;
-		top:75px;
-		left:315px;
-		padding-left:1px;
-	}
-
-#rd1 a:link
-	{
-		width:30px;
-		height:34px;
-		position:absolute;
-		top:0px;
-		left:0px;
-		background-image:url(imagens/botoes/inativo_facebook.jpg);
-	}
-
-#rd1 a:hover
-	{
-		width:30px;
-		height:34px;
-		position:absolute;
-		top:0px;
-		left:0px;
-		background-image:url(imagens/botoes/ativo_facebook.jpg);
-	}
-
-#rd2 a:link
-	{
-		width:30px;
-		height:33px;
-		position:absolute;
-		top:34px;
-		left:0px;
-		background-image:url(imagens/botoes/inativo_pinterest.jpg);
-	}
-
-#rd2 a:hover
-	{
-		width:30px;
-		height:33px;
-		position:absolute;
-		top:34px;
-		left:0px;
-		background-image:url(imagens/botoes/ativo_pinterest.jpg);
-	}
-
-#rd3 a:link
-	{
-		width:30px;
-		height:34px;
-		position:absolute;
-		top:66px;
-		left:0px;
-		background-image:url(imagens/botoes/inativo_twitter.jpg);
-	}
-
-#rd3 a:hover
-	{
-		width:30px;
-		height:34px;
-		position:absolute;
-		top:66px;
-		left:0px;
-		background-image:url(imagens/botoes/ativo_twitter.jpg);
-	}
-
-#ficha
-	{
-	width: 540px;
-	height: 300px;
-	background-color:#6ac3ff;
-	position: absolute;
-	top: 188px;
-	left: 104px;
-	text-indent: 10px;
-	padding-top: 15px;
-	padding-left: 15px;
-	}
-
-.campo {
-	font-family:"Arial Black", Gadget, sans-serif;
-	font-weight:bold;
-	color:#009;
-	text-indent:0px;
-	}
-
-.dados {
-	font-family:Verdana, Geneva, sans-serif;
-	font-weight:bold;
-	color:#060;
-	text-indent:25px;
-	font-size:smaller;
-	margin-left:70px;
-	}
-	
-#navegacao{
-	width: 350px;
-	height: 50px;
-	background-color:transparent;
-	position: absolute;
-	top: 515px;
-	left: 206px;
-	}
-
-#perfil-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/perfil-off.jpg);
-	left:0px;
-	top:0px;
-	}
-
-#primeiro-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/primeiro-off.jpg);
-	left:50px;
-	top:0px;
-	}
-
-#album-anterior a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/anterior-off.jpg);
-	left:100px;
-	top:0px;
-	}
-
-#download-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/download-off.jpg);
-	left:150px;
-	top:0px;
-	}
-	
-#proximo-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/proximo-off.jpg);
-	left:200px;
-	top:0px;
-	}
-	
-#ultimo-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/ultimo-off.jpg);
-	left:250px;
-	top:0px;
-	}
-
-#shuffle-album a:link{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/suffle-off.jpg);
-	left:300px;
-	top:0px;
-	}
-
-#perfil-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/perfil-off.jpg);
-	left:0px;
-	top:0px;
-	}
-
-#primeiro-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/primeiro-off.jpg);
-	left:50px;
-	top:0px;
-	}
-
-#album-anterior a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/anterior-off.jpg);
-	left:100px;
-	top:0px;
-	}
-
-#download-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/download-off.jpg);
-	left:150px;
-	top:0px;
-	}
-	
-#proximo-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/proximo-off.jpg);
-	left:200px;
-	top:0px;
-	}
-	
-#ultimo-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/ultimo-off.jpg);
-	left:250px;
-	top:0px;
-	}
-
-#shuffle-album a:visited{
-	width:50px;
-	height:50px;
-	position:absolute;
-	background-image:url(imagens/botoes/suffle-off.jpg);
-	left:300px;
-	top:0px;
-	}
-
-#xpg-vitrine {
-	background-color:transparent;
-	height:200px;
-	width:100%;
-	position:absolute;
-	top:610px;
-	left:0px;
+body {
+    margin: 0;
+    background-image: url(imagens/wallpaper.png);
+    background-repeat: repeat;
 }
 
+#cabecalho {
+    height: 70px;
+    width: 1366px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: transparent;
+}
 
+#painelprincipal {
+    width: 540px;
+    height: 540px;
+    background-image: url(imagens/vitrine.png);
+    position: relative;
+    top: 75px;
+    left: 750px;
+    float: left;
+}
 
+#capa {
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
 
-/*  <div id="album2"><a href=""><img src=</a></div> 
-	
-	>> Adição de transparência em imagens e divs
-	
-	opacity:0.6;
-	filter:alpha(opacity=60);
-	
-    <a href=""><img src="image/capas_originais/ACDC_Back in black.jpg" border=0px /></a>
+#ranking {
+    width: 100px;
+    height: 100px;
+    background-image: url(imagens/ranking/100.png);
+    position: absolute;
+    top: 75px;
+    left: 345px;
+}
 
- */
+#redes_sociais {
+    width: 30px;
+    height: 100px;
+    position: absolute;
+    top: 75px;
+    left: 315px;
+    padding-left: 1px;
+}
 
+#rd1 a:link, #rd2 a:link, #rd3 a:link,
+#rd1 a:hover, #rd2 a:hover, #rd3 a:hover {
+    width: 30px;
+    height: 34px;
+    position: absolute;
+    left: 0px;
+}
+
+#rd1 a:link {
+    top: 0px;
+    background-image: url(imagens/botoes/inativo_facebook.jpg);
+}
+
+#rd1 a:hover {
+    top: 0px;
+    background-image: url(imagens/botoes/ativo_facebook.jpg);
+}
+
+#rd2 a:link {
+    top: 34px;
+    background-image: url(imagens/botoes/inativo_pinterest.jpg);
+}
+
+#rd2 a:hover {
+    top: 34px;
+    background-image: url(imagens/botoes/ativo_pinterest.jpg);
+}
+
+#rd3 a:link {
+    top: 66px;
+    background-image: url(imagens/botoes/inativo_twitter.jpg);
+}
+
+#rd3 a:hover {
+    top: 66px;
+    background-image: url(imagens/botoes/ativo_twitter.jpg);
+}
+
+#ficha {
+    width: 540px;
+    height: 300px;
+    background-color: #6ac3ff;
+    position: absolute;
+    top: 188px;
+    left: 104px;
+    text-indent: 10px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.campo {
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-weight: bold;
+    color: #009;
+    text-indent: 0px;
+}
+
+.dados {
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: bold;
+    color: #060;
+    text-indent: 25px;
+    font-size: smaller;
+    margin-left: 70px;
+}
+
+#navegacao {
+    width: 350px;
+    height: 50px;
+    background-color: transparent;
+    position: absolute;
+    top: 515px;
+    left: 206px;
+}
+
+#perfil-album a:link,
+#primeiro-album a:link,
+#album-anterior a:link,
+#download-album a:link,
+#proximo-album a:link,
+#ultimo-album a:link,
+#shuffle-album a:link,
+#perfil-album a:visited,
+#primeiro-album a:visited,
+#album-anterior a:visited,
+#download-album a:visited,
+#proximo-album a:visited,
+#ultimo-album a:visited,
+#shuffle-album a:visited {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#perfil-album a:link {
+    background-image: url(imagens/botoes/perfil-off.jpg);
+}
+
+#primeiro-album a:link {
+    background-image: url(imagens/botoes/primeiro-off.jpg);
+}
+
+#album-anterior a:link {
+    background-image: url(imagens/botoes/anterior-off.jpg);
+}
+
+#download-album a:link {
+    background-image: url(imagens/botoes/download-off.jpg);
+}
+
+#proximo-album a:link {
+    background-image: url(imagens/botoes/proximo-off.jpg);
+}
+
+#ultimo-album a:link {
+    background-image: url(imagens/botoes/ultimo-off.jpg);
+}
+
+#shuffle-album a:link {
+    background-image: url(imagens/botoes/suffle-off.jpg);
+}
+
+#perfil-album a:visited {
+    background-image: url(imagens/botoes/perfil-off.jpg);
+}
+
+#primeiro-album a:visited {
+    background-image: url(imagens/botoes/primeiro-off.jpg);
+}
+
+#album-anterior a:visited {
+    background-image: url(imagens/botoes/anterior-off.jpg);
+}
+
+#download-album a:visited {
+    background-image: url(imagens/botoes/download-off.jpg);
+}
+
+#proximo-album a:visited {
+    background-image: url(imagens/botoes/proximo-off.jpg);
+}
+
+#ultimo-album a:visited {
+    background-image: url(imagens/botoes/ultimo-off.jpg);
+}
+
+#shuffle-album a:visited {
+    background-image: url(imagens/botoes/suffle-off.jpg);
+}
+
+#xpg-vitrine {
+    background-color: transparent;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    top: 610px;
+    left: 0px;
+}
