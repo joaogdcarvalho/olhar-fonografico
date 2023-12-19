@@ -1,76 +1,45 @@
-# Olhar Fonográfico
-> Trabalho de conclusão de módulo (Adobe Dreamweaver) do curso "Start - Treinamento em Comunicação Visual" oferecido pela SAGA - School of Art Game and Animation realizado durante o ano de 2015.
+# OLHAR FONOGRÁFICO - TOP 100
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+## Visão Geral
 
-![](header.png)
+Bem-vindo ao projeto **Olhar Fonográfico - Top 100**. Este projeto é resultado do trabalho de conclusão de módulo (Adobe Dreamweaver) realizado durante o ano de 2015 no curso "Start - Treinamento em Comunicação Visual" oferecido pela SAGA - School of Art Game and Animation.
 
-## Installation
+## Estrutura do Projeto
 
-OS X & Linux:
+### Layouts Principais das Páginas
 
-```sh
-npm install my-crazy-module --save
-```
+- **index**: Página inicial que exibe um mural com miniaturas dos álbuns da última até a primeira colocação, proporcionando uma visão geral da classificação.
+  
+- **vitrine**: Página detalhada para o álbum classificado em uma colocação específica. Contém informações detalhadas sobre o álbum, como a capa, posição no ranking, redes sociais relacionadas e navegação para outros álbuns.
 
-Windows:
+### Recursos JavaScript
 
-```sh
-edit autoexec.bat
-```
+- **shuffle**: Script JavaScript que cria um array dinâmico de URLs das vitrines (de 1 a 100) e fornece uma função para redirecionar o usuário para um URL aleatório. Essa funcionalidade aprimora a experiência do usuário, permitindo a exploração aleatória dos álbuns.
 
-## Usage example
+### Folhas de Estilo
 
-A few motivating and useful examples of how your product can be used. Spice this up with code blocks and potentially more screenshots.
+- **mural**: Estilização específica para a página de mural, responsável por exibir as miniaturas dos álbuns de forma organizada. Adapta a exibição para diferentes tamanhos de tela, garantindo uma experiência responsiva.
 
-_For more examples and usage, please refer to the [Wiki][wiki]._
+- **vitrine**: Folha de estilo para a página detalhada de um álbum (vitrine). Define o layout e estilo para elementos como a capa do álbum, informações, redes sociais e navegação.
 
-## Development setup
+## Como Executar o Projeto
 
-Describe how to install all development dependencies and how to run an automated test-suite of some kind. Potentially do this for multiple platforms.
+1. **Download ou Clone**: Faça o download do projeto ou clone o repositório para sua máquina local.
+   
+2. **Abra os Arquivos HTML**: Utilize um navegador da web para abrir os arquivos HTML (`index.html` e `vitrine1.html`) e visualizar as páginas.
 
-```sh
-make install
-npm test
-```
+3. **Exploração do Projeto**: Explore as diferentes funcionalidades, como a navegação entre álbuns e a função de embaralhamento, oferecendo uma experiência interativa ao usuário.
 
-## Release History
+## Contribuições
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
-* 0.0.1
-    * Work in progress
+Este projeto é aberto a contribuições. Sinta-se à vontade para relatar problemas, sugerir melhorias ou até mesmo contribuir com código. Valorizamos a participação da comunidade!
 
-## Meta
+Para contribuir:
 
-Your Name – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+1. Fork este repositório (<https://github.com/joaogdcarvalho/olhar-fonografico/fork>)
+2. Crie um novo branch para a sua funcionalidade (`git checkout -b feature/novaFuncionalidade`)
+3. Realize os commits das suas alterações (`git commit -am 'Adicionando nova funcionalidade'`)
+4. Faça o push para o seu branch (`git push origin feature/novaFuncionalidade`)
+5. Crie um novo Pull Request
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
-
-[https://github.com/joaogdcarvalho/olhar-fonografico](https://github.com/joaogdcarvalho)
-
-## Contributing
-
-1. Fork it (<https://github.com/joaogdcarvalho/creation-desenvolvimento/fork>)
-2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes (`git commit -am 'Add some fooBar'`)
-4. Push to the branch (`git push origin feature/fooBar`)
-5. Create a new Pull Request
-
-<!-- Markdown link & img dfn's -->
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
-[wiki]: https://github.com/joaogdcarvalho/olhar-fonografico/wiki
+Agradecemos por escolher o **Olhar Fonográfico - Top 100**. Aproveite a experiência musical!
